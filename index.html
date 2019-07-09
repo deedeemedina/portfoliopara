@@ -32,18 +32,22 @@
     .bgimg-1 {
       background-image: url('./img6.png');
       min-height: 100%;
+     
+
     }
     
     /* Second image (Portfolio) */
     .bgimg-2 {
       background-image: url("./img7.jpg");
       min-height: 400px;
+     
     }
     
     /* Third image (Contact) */
     .bgimg-3 {
       background-image: url("./img8.jpg");
       min-height: 400px;
+      
     }
     
     .w3-wide {letter-spacing: 10px;}
@@ -144,6 +148,8 @@
 <div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
     <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+    <a href="./deemedina.pdf" download>
+    <button class="btn w3-display-middle w3-button w3-padding-large w3-light-grey" style="margin-top:64px"><i class="fa fa-download"></i>Download Resume</button></a>
   </div>
 </div>
 
@@ -168,33 +174,14 @@
 
     <div class="w3-col m3">
       <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="project 4">
-    </div>
   </div>
 
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3">
       <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="project 5">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
-    </div>
-    <p>
-        <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
-          <i class="fa fa-download w3-margin-right"></i>Download Resume</button>
-      </p>
-
   </div>
 </div>
-
+</div>
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
   <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
@@ -206,10 +193,10 @@
 
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+    <div class="w3-display-middle">
+       <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+    </div>
   </div>
-</div>
 
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
